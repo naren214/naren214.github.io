@@ -857,6 +857,132 @@ section,
 }
 
 /*--------------------------------------------------------------
+# Certificates Section
+--------------------------------------------------------------*/
+.certificates .certificate-card {
+  background-color: var(--surface-color);
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  overflow: hidden;
+  transition: all ease-in-out 0.3s;
+  border-bottom: 4px solid var(--surface-color);
+}
+
+.certificates .certificate-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--accent-color);
+  box-shadow: 0px 12px 35px rgba(0, 0, 0, 0.15);
+}
+
+.certificates .certificate-media {
+  background: color-mix(in srgb, var(--default-color), transparent 96%);
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.certificates .certificate-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  transition: transform ease-in-out 0.3s;
+}
+
+.certificates .certificate-card:hover .certificate-media img {
+  transform: scale(1.03);
+}
+
+.certificates .certificate-placeholder {
+  color: var(--accent-color);
+  font-size: 56px;
+}
+
+.certificates .certificate-body {
+  padding: 24px;
+}
+
+.certificates .certificate-meta {
+  color: var(--accent-color);
+  font-family: var(--heading-font);
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.certificates .certificate-body h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.certificates .certificate-body p {
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.certificates .certificate-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.certificates .certificate-btn {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 9px 18px;
+  transition: 0.3s;
+}
+
+.certificates .certificate-btn i {
+  font-size: 16px;
+  line-height: 0;
+}
+
+.certificates .certificate-btn:hover {
+  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+  border-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+  color: var(--contrast-color);
+}
+
+.certificates .certificate-btn-outline {
+  color: var(--accent-color);
+  background: transparent;
+}
+
+.certificates .certificate-btn-outline:hover {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+@media (max-width: 575px) {
+  .certificates .certificate-body {
+    padding: 20px;
+  }
+
+  .certificates .certificate-actions {
+    flex-direction: column;
+  }
+
+  .certificates .certificate-btn {
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+/*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
 .services .service-item {
