@@ -3,12 +3,20 @@
 
   const certificates = [
     {
-      title: "Create Your UI/UX Portfolio with GitHub",
-      issuer: "Coursera",
-      date: "July 2026",
-      description: "Completed a guided UI/UX portfolio project using GitHub.",
-      thumbnail: "assets/img/certificates/create-your-uiux-portfolio-with-github.jpg",
-      pdf: "assets/certificates/create-your-uiux-portfolio-with-github.pdf"
+      title: "Build with Gemma Hackathon Participation",
+      issuer: "Google Developer Groups On Campus - VIT Chennai",
+      date: "July 30, 2026",
+      description: "Participated in the Build with Gemma Hackathon organized by GDG On Campus VIT Chennai.",
+      thumbnail: "assets/img/certificates/build-with-gemma-hackathon.jpg",
+      pdf: "assets/certificates/build-with-gemma-hackathon.pdf"
+    },
+    {
+      title: "Certificate of Summer Research Internship",
+      issuer: "VIT Chennai - Centre for Smart Grid Technologies",
+      date: "May 1 - July 31, 2026",
+      description: "Completed a summer research internship and contributed to a research paper submitted to an SCI journal for consideration.",
+      thumbnail: "assets/img/certificates/summer-research-internship.jpg",
+      pdf: "assets/certificates/summer-research-internship.pdf"
     },
     {
       title: "DecodeLabs Virtual Internship Program",
@@ -19,36 +27,12 @@
       pdf: "assets/certificates/decodelabs-internship-certificate.pdf"
     },
     {
-      title: "DecodeLabs Internship Offer Letter",
-      issuer: "DecodeLabs",
-      date: "June 2026",
-      description: "Received an internship offer for the Python programming track.",
-      thumbnail: "assets/img/certificates/decodelabs-offer-letter.jpg",
-      pdf: "assets/certificates/decodelabs-offer-letter.pdf"
-    },
-    {
       title: "Introduction to Front-End Development",
       issuer: "Meta via Coursera",
       date: "June 2026",
       description: "Completed Meta's introductory front-end development course.",
       thumbnail: "assets/img/certificates/introduction-to-front-end-development.jpg",
       pdf: "assets/certificates/introduction-to-front-end-development.pdf"
-    },
-    {
-      title: "n8n Mail Bot",
-      issuer: "HackerRank",
-      date: "July 2026",
-      description: "Participated in the n8n Mail Bot building challenge.",
-      thumbnail: "assets/img/certificates/n8n-mail-bot-hackerrank.jpg",
-      pdf: "assets/certificates/n8n-mail-bot-hackerrank.pdf"
-    },
-    {
-      title: "n8n Mail Bot Workshop",
-      issuer: "Microsoft Innovations Club VITC",
-      date: "July 2026",
-      description: "Participated in a hands-on automation workshop.",
-      thumbnail: "assets/img/certificates/n8n-mail-bot-mic.jpg",
-      pdf: "assets/certificates/n8n-mail-bot-mic.pdf"
     },
     {
       title: "Python for Data Science, AI & Development",
@@ -59,12 +43,28 @@
       pdf: "assets/certificates/python-for-data-science-ai-development.pdf"
     },
     {
-      title: "WikiRace AI",
-      issuer: "HackerRank",
+      title: "Create Your UI/UX Portfolio with GitHub",
+      issuer: "Coursera",
       date: "July 2026",
-      description: "Participated in the WikiRace AI building challenge.",
-      thumbnail: "assets/img/certificates/wikirace-ai-hackerrank.jpg",
-      pdf: "assets/certificates/wikirace-ai-hackerrank.pdf"
+      description: "Completed a guided UI/UX portfolio project using GitHub.",
+      thumbnail: "assets/img/certificates/create-your-uiux-portfolio-with-github.jpg",
+      pdf: "assets/certificates/create-your-uiux-portfolio-with-github.pdf"
+    },
+    {
+      title: "DecodeLabs Internship Offer Letter",
+      issuer: "DecodeLabs",
+      date: "June 2026",
+      description: "Received an internship offer for the Python programming track.",
+      thumbnail: "assets/img/certificates/decodelabs-offer-letter.jpg",
+      pdf: "assets/certificates/decodelabs-offer-letter.pdf"
+    },
+    {
+      title: "n8n Mail Bot Workshop",
+      issuer: "Microsoft Innovations Club VITC",
+      date: "July 2026",
+      description: "Participated in a hands-on automation workshop.",
+      thumbnail: "assets/img/certificates/n8n-mail-bot-mic.jpg",
+      pdf: "assets/certificates/n8n-mail-bot-mic.pdf"
     },
     {
       title: "WikiRace AI Workshop",
@@ -73,6 +73,22 @@
       description: "Participated in a hands-on AI workshop.",
       thumbnail: "assets/img/certificates/wikirace-ai-mic.jpg",
       pdf: "assets/certificates/wikirace-ai-mic.pdf"
+    },
+    {
+      title: "n8n Mail Bot",
+      issuer: "HackerRank",
+      date: "July 2026",
+      description: "Participated in the n8n Mail Bot building challenge.",
+      thumbnail: "assets/img/certificates/n8n-mail-bot-hackerrank.jpg",
+      pdf: "assets/certificates/n8n-mail-bot-hackerrank.pdf"
+    },
+    {
+      title: "WikiRace AI",
+      issuer: "HackerRank",
+      date: "July 2026",
+      description: "Participated in the WikiRace AI building challenge.",
+      thumbnail: "assets/img/certificates/wikirace-ai-hackerrank.jpg",
+      pdf: "assets/certificates/wikirace-ai-hackerrank.pdf"
     }
   ];
 
