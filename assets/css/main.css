@@ -20,9 +20,9 @@
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #4e4e4e; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #0a090f; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #0078ff; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --default-color: #465468; /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #132238; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #2563eb; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -40,7 +40,7 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #f9f9f9;
+  --background-color: #f5f8fc;
   --surface-color: #ffffff;
 }
 
@@ -73,6 +73,7 @@ body {
   color: var(--default-color);
   background-color: var(--background-color);
   font-family: var(--default-font);
+  line-height: 1.6;
 }
 
 a {
@@ -157,9 +158,11 @@ h6 {
   --heading-color: #ffffff;
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 20px 0;
+  padding: 15px 0;
   transition: all 0.5s;
   z-index: 997;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
 }
 
 .header .logo {
@@ -172,14 +175,14 @@ h6 {
 }
 
 .header .logo h1 {
-  font-size: 30px;
+  font-size: 24px;
   margin: 0;
-  font-weight: 700;
+  font-weight: 800;
   color: var(--heading-color);
 }
 
 .scrolled .header {
-  box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.18);
 }
 
 /*--------------------------------------------------------------
@@ -205,7 +208,7 @@ h6 {
 
   .navmenu>ul>li {
     white-space: nowrap;
-    padding: 15px 14px;
+    padding: 10px 0 10px 26px;
   }
 
   .navmenu>ul>li:last-child {
@@ -215,10 +218,10 @@ h6 {
   .navmenu a,
   .navmenu a:focus {
     color: var(--nav-color);
-    font-size: 15px;
+    font-size: 14px;
     padding: 0 2px;
     font-family: var(--nav-font);
-    font-weight: 400;
+    font-weight: 500;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -240,9 +243,10 @@ h6 {
     position: absolute;
     width: 100%;
     height: 2px;
-    bottom: -6px;
+    bottom: -10px;
     left: 0;
-    background-color: var(--nav-hover-color);
+    background-color: #60a5fa;
+    border-radius: 99px;
     visibility: hidden;
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
@@ -448,10 +452,15 @@ h6 {
 # Global Footer
 --------------------------------------------------------------*/
 .footer {
+  --background-color: #111827;
+  --default-color: #e5edf7;
+  --heading-color: #ffffff;
+  --accent-color: #60a5fa;
+  --contrast-color: #0f172a;
   color: var(--default-color);
   background-color: var(--background-color);
   font-size: 14px;
-  padding: 40px 0;
+  padding: 34px 0;
   position: relative;
 }
 
@@ -470,16 +479,17 @@ h6 {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 30%);
+  border: 1px solid rgba(229, 237, 247, 0.38);
   font-size: 16px;
-  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  color: var(--default-color);
   margin: 0 5px;
   transition: 0.3s;
 }
 
 .footer .social-links a:hover {
-  color: var(--default-color);
-  border-color: var(--default-color);
+  color: #111827;
+  background: #ffffff;
+  border-color: #ffffff;
 }
 
 .footer .credits {
@@ -614,7 +624,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 60px 0;
+  padding: 88px 0;
   scroll-margin-top: 92px;
   overflow: clip;
 }
@@ -627,20 +637,44 @@ section,
   }
 }
 
+@media (max-width: 768px) {
+
+  section,
+  .section {
+    padding: 64px 0;
+  }
+
+  .header .logo h1 {
+    font-size: 21px;
+  }
+
+  .section-title {
+    padding-bottom: 36px;
+  }
+
+  .section-title h2 {
+    font-size: 29px;
+  }
+
+  .about .about-me {
+    margin-top: 34px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Global Section Titles
 --------------------------------------------------------------*/
 .section-title {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 48px;
   position: relative;
 }
 
 .section-title h2 {
-  font-size: 32px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+  font-size: 34px;
+  font-weight: 800;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
   position: relative;
 }
 
@@ -659,6 +693,7 @@ section,
 
 .section-title p {
   margin-bottom: 0;
+  color: color-mix(in srgb, var(--default-color), transparent 12%);
 }
 
 /*--------------------------------------------------------------
@@ -666,7 +701,7 @@ section,
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
-  min-height: calc(100vh - 92px);
+  min-height: calc(100vh - 72px);
   position: relative;
   padding: 60px 0;
   display: flex;
@@ -686,7 +721,7 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 30%);
+  background: rgba(3, 7, 18, 0.58);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -699,23 +734,23 @@ section,
 
 .hero h2 {
   margin: 0;
-  font-size: 64px;
-  font-weight: 700;
+  font-size: 56px;
+  font-weight: 800;
 }
 
 .hero p {
-  margin: 5px 0 0 0;
-  font-size: 36px;
-  font-weight: 600;
+  margin: 12px 0 0 0;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .hero p span {
-  letter-spacing: 1px;
+  color: #bfdbfe;
 }
 
 @media (max-width: 768px) {
   .hero h2 {
-    font-size: 32px;
+    font-size: 38px;
   }
 
   .hero p {
@@ -802,34 +837,37 @@ section,
 --------------------------------------------------------------*/
 .resume .resume-title {
   color: var(--heading-color);
-  font-size: 26px;
-  font-weight: 700;
+  font-size: 25px;
+  font-weight: 800;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .resume .resume-item {
-  padding: 0 0 20px 20px;
+  padding: 0 0 28px 24px;
   margin-top: -2px;
-  border-left: 2px solid var(--accent-color);
+  border-left: 2px solid color-mix(in srgb, var(--accent-color), transparent 30%);
   position: relative;
 }
 
 .resume .resume-item h4 {
-  line-height: 18px;
+  line-height: 1.35;
   font-size: 18px;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
-  margin-bottom: 10px;
+  font-weight: 700;
+  text-transform: none;
+  color: var(--heading-color);
+  margin-bottom: 12px;
 }
 
 .resume .resume-item h5 {
-  font-size: 16px;
-  padding: 5px 15px;
+  font-size: 14px;
+  padding: 5px 10px;
   display: inline-block;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
+  background: color-mix(in srgb, var(--accent-color), transparent 92%);
+  color: var(--accent-color);
+  border-radius: 4px;
 }
 
 .resume .resume-item ul {
@@ -847,10 +885,10 @@ section,
 .resume .resume-item::before {
   content: "";
   position: absolute;
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
   border-radius: 50px;
-  left: -9px;
+  left: -8px;
   top: 0;
   background: var(--background-color);
   border: 2px solid var(--accent-color);
@@ -1420,17 +1458,32 @@ section,
 # Contact Section
 --------------------------------------------------------------*/
 .contact .info-wrap {
-  background-color: var(--surface-color);
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  padding: 30px;
-  margin-bottom: 30px;
+  background-color: transparent;
+  box-shadow: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.contact .info-item {
+  height: 100%;
+  padding: 22px;
+  border: 1px solid #e3eaf3;
+  border-radius: 8px;
+  background: var(--surface-color);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.contact .info-item:hover {
+  border-color: color-mix(in srgb, var(--accent-color), transparent 50%);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+  transform: translateY(-3px);
 }
 
 .contact .info-item i {
   font-size: 20px;
   color: var(--accent-color);
-  width: 56px;
-  height: 56px;
+  width: 52px;
+  height: 52px;
   display: flex;
   justify-content: center;
   align-items: center;
