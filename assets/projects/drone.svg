@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Designed terrain-map summary for the Rapid Response Drone Mapper project</title>
+  <defs>
+    <linearGradient id="background" x1="100" y1="0" x2="1100" y2="750" gradientUnits="userSpaceOnUse"><stop stop-color="#B5C3AA"/><stop offset="1" stop-color="#859A82"/></linearGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0H0V60" stroke="#243F31" stroke-opacity=".11"/></pattern>
+    <pattern id="selection" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><path d="M0 0v12" stroke="#EAF0CE" stroke-opacity=".13" stroke-width="3"/></pattern>
+    <g id="marker"><circle r="33" fill="#E7EBCF" fill-opacity=".22"/><circle r="23" fill="#264635"/><path d="m0-11 12 21h-24z" stroke="#E2F1B3" stroke-width="1.5"/><path d="M0-3v6m0 3v1" stroke="#E2F1B3" stroke-width="1.7"/></g>
+  </defs>
+  <path fill="url(#background)" d="M0 0h1200v750H0z"/>
+  <g stroke="#D7E1C9" stroke-opacity=".3" stroke-width="1.4">
+    <path d="M-75 361C116 166 263 190 338 304s-75 232 74 299 248-155 385-86 210 243 451 35"/>
+    <path d="M-75 324C123 126 291 155 372 281s-64 222 57 278 243-152 383-83 237 241 443 31"/>
+    <path d="M-75 286C125 91 316 112 407 256s-51 219 37 260 238-147 383-78 256 238 437 24"/>
+    <path d="M-75 246C128 51 347 78 443 231s-40 207 20 242 235-147 379-75 276 231 432 17"/>
+    <path d="M-75 205C143 3 375 38 479 205s-31 194 3 225 225-149 374-73 299 225 429 10"/>
+    <path d="M-75 161C146-35 402-2 515 180s-22 184 8 206 203-150 349-72 312 216 424 5"/>
+    <path d="M-75 116C170-81 425-39 552 154s-12 174 12 190 176-149 322-72 335 207 421-4"/>
+    <path d="M-75 404C113 203 231 228 304 327s-91 242 91 317 250-154 374-84 194 246 468 38"/>
+    <path d="M-75 446C99 250 206 270 269 350s-104 256 108 337 263-153 379-79 175 253 469 42"/>
+    <path d="M-75 490C88 287 180 315 233 373s-112 269 127 357 279-147 386-75 157 255 466 46"/>
+    <path d="M-75 533C83 331 146 347 196 397s-119 282 147 376 296-150 389-76 145 265 475 50"/>
+    <path d="M-75 578C76 372 121 387 159 420s-132 292 167 396 306-152 396-78"/>
+    <path d="M620-60C621 74 652 121 773 139s273-55 345 52 19 161 156 190"/>
+    <path d="M662-60C660 46 693 88 793 99s266-50 359 57 10 150 122 184"/>
+    <path d="M704-60C701 12 732 49 813 59s254-40 373 64 0 142 88 178"/>
+  </g>
+  <path fill="url(#grid)" d="M0 0h1200v750H0z"/>
+  <path d="M360-20C404 104 333 159 397 243s197 37 215 130-124 135-59 230 143 95 152 177" stroke="#789789" stroke-width="31" stroke-opacity=".65"/>
+  <path d="M360-20C404 104 333 159 397 243s197 37 215 130-124 135-59 230 143 95 152 177" stroke="#C9DAC6" stroke-width="2" stroke-opacity=".45"/>
+  <rect x="272" y="175" width="647" height="370" rx="3" fill="url(#selection)" stroke="#E5EFCE" stroke-width="1.5" stroke-dasharray="9 8"/>
+  <g fill="#F1F3D9"><path d="M272 196v-21h21M898 175h21v21M919 524v21h-21M293 545h-21v-21" stroke="#F1F3D9" stroke-width="3"/></g>
+  <path d="M364 433 523 276 741 388 850 263" stroke="#F1F3D9" stroke-width="2" stroke-dasharray="5 9"/>
+  <use href="#marker" x="364" y="433"/><use href="#marker" x="523" y="276"/><use href="#marker" x="741" y="388"/>
+  <g transform="translate(850 263)" stroke="#F4F4DD" stroke-width="2.5"><path d="m-18-18 36 36m-36 0 36-36"/><rect x="-9" y="-9" width="18" height="18" rx="4" fill="#304E3B"/><circle cx="-24" cy="-24" r="13"/><circle cx="24" cy="-24" r="13"/><circle cx="-24" cy="24" r="13"/><circle cx="24" cy="24" r="13"/></g>
+  <g font-family="Arial, sans-serif">
+    <rect x="55" y="48" width="390" height="83" rx="5" fill="#243F31"/>
+    <text x="81" y="82" fill="#E8EFDA" font-size="22" letter-spacing="2">RAPID RESPONSE</text><text x="81" y="110" fill="#B6C7A7" font-size="18" letter-spacing="2">AERIAL MAPPING STUDY</text>
+    <g transform="translate(1080 88)"><path d="M0-24 9 16 0 8-9 16Z" fill="#294534"/><text x="0" y="47" text-anchor="middle" fill="#294534" font-size="20">N</text></g>
+    <rect x="836" y="602" width="308" height="98" rx="5" fill="#DCE4CB" fill-opacity=".94"/>
+    <circle cx="866" cy="635" r="6" fill="#2A4936"/><text x="887" y="642" fill="#2A4936" font-size="20">Image marker</text>
+    <path d="M859 669h15" stroke="#2A4936" stroke-width="2" stroke-dasharray="3 3"/><text x="887" y="676" fill="#2A4936" font-size="20">Survey area</text>
+    <path d="M62 658h150m-150-7v14m150-14v14" stroke="#2C4A36" stroke-width="2"/><text x="62" y="693" fill="#2C4A36" font-size="18" letter-spacing="2">TERRAIN / OVERVIEW</text>
+  </g>
+</svg>

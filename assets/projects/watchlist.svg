@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" fill="none" role="img" aria-labelledby="title">
+  <title id="title">A designed watchlist summary with original geometric film artwork</title>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="750" gradientUnits="userSpaceOnUse"><stop stop-color="#E9E8F2"/><stop offset="1" stop-color="#CBCADC"/></linearGradient>
+    <linearGradient id="blue" x1="369" y1="240" x2="555" y2="484" gradientUnits="userSpaceOnUse"><stop stop-color="#263950"/><stop offset="1" stop-color="#6B8FA3"/></linearGradient>
+    <linearGradient id="rose" x1="610" y1="240" x2="796" y2="484" gradientUnits="userSpaceOnUse"><stop stop-color="#D49C8C"/><stop offset="1" stop-color="#9F5E64"/></linearGradient>
+    <linearGradient id="green" x1="851" y1="240" x2="1037" y2="484" gradientUnits="userSpaceOnUse"><stop stop-color="#768B6E"/><stop offset="1" stop-color="#354E42"/></linearGradient>
+    <clipPath id="first"><rect x="350" y="238" width="208" height="270" rx="7"/></clipPath><clipPath id="second"><rect x="590" y="238" width="208" height="270" rx="7"/></clipPath><clipPath id="third"><rect x="830" y="238" width="208" height="270" rx="7"/></clipPath>
+  </defs>
+  <path fill="url(#background)" d="M0 0h1200v750H0z"/>
+  <rect x="58" y="68" width="1084" height="614" rx="15" fill="#F6F5FA" stroke="#B6B4CA" stroke-opacity=".5"/>
+  <path d="M58 83a15 15 0 0 1 15-15h1069v77H58z" fill="#EEEDF5"/>
+  <circle cx="88" cy="107" r="5" fill="#BCBACD"/><circle cx="107" cy="107" r="5" fill="#BCBACD"/><circle cx="126" cy="107" r="5" fill="#BCBACD"/>
+  <path d="M58 145h1084M283 145v537" stroke="#DCD9E8"/>
+  <g font-family="Arial, sans-serif">
+    <text x="171" y="114" fill="#666079" font-size="18" letter-spacing="2">A PLACE FOR EVERY FILM</text>
+    <g transform="translate(1095 107)" stroke="#746C89" stroke-width="1.5"><path d="M-7-9h14v18L0 4l-7 5z"/></g>
+    <text x="88" y="204" fill="#312D43" font-size="22" font-weight="bold">Watchlist.</text>
+    <rect x="78" y="239" width="184" height="44" rx="6" fill="#E4E0F0"/>
+    <g fill="#655E7C" font-size="19"><text x="112" y="267">My collection</text><text x="112" y="325">To watch</text><text x="112" y="383">Watched</text><text x="112" y="441">Notes</text></g>
+    <g stroke="#8D859F" stroke-width="1.5"><rect x="91" y="253" width="11" height="11" rx="2"/><circle cx="96" cy="319" r="6"/><path d="m91 378 4 4 8-9M91 436l5-5 6 5-6 7z"/></g>
+    <path d="M88 492h166" stroke="#DED9E8"/>
+    <text x="88" y="534" fill="#90889F" font-size="18" letter-spacing="1">YOUR NEXT STORY</text>
+    <path d="M89 556h125m-125 13h83" stroke="#D4CFDF" stroke-width="4" stroke-linecap="round"/>
+    <text x="350" y="204" fill="#312D43" font-size="28" letter-spacing="-.5">Something worth watching.</text>
+    <g clip-path="url(#first)"><rect x="350" y="238" width="208" height="270" fill="url(#blue)"/><circle cx="466" cy="326" r="57" fill="#DCD5BD"/><circle cx="492" cy="310" r="57" fill="#344B60"/><path d="m325 518 112-151 58 90 49-62 64 123" fill="#1C3043"/><path d="m401 518 75-96 61 96" fill="#92ADB3" fill-opacity=".5"/><path d="M369 263h85" stroke="#BBC8CC" stroke-width="1.5"/></g>
+    <g clip-path="url(#second)"><rect x="590" y="238" width="208" height="270" fill="url(#rose)"/><circle cx="694" cy="374" r="92" stroke="#F2D2BD" stroke-width="2"/><circle cx="694" cy="374" r="64" stroke="#F2D2BD" stroke-width="2"/><circle cx="694" cy="374" r="35" fill="#E6B6A1"/><path d="m580 463 238-133m-238 158 238-133" stroke="#6C465A" stroke-width="17"/><path d="M609 263h85" stroke="#F4D8C8" stroke-width="1.5"/></g>
+    <g clip-path="url(#third)"><rect x="830" y="238" width="208" height="270" fill="url(#green)"/><path d="M869 505V347a66 66 0 0 1 132 0v158" fill="#C9CAA6"/><path d="M888 508V348a47 47 0 0 1 94 0v160" fill="#8B9C7E"/><path d="M909 508V349a26 26 0 0 1 52 0v159" fill="#354E42"/><path d="m838 496 200-84M838 513l200-84" stroke="#DCE0BE" stroke-opacity=".4" stroke-width="2"/><path d="M849 263h85" stroke="#DDE0C4" stroke-width="1.5"/></g>
+    <g fill="#494157" font-size="19"><text x="350" y="544">Beyond the horizon</text><text x="590" y="544">A different rhythm</text><text x="830" y="544">Into the quiet</text></g>
+    <g fill="#797085" font-size="18"><text x="350" y="576">Sci-fi / Adventure</text><text x="590" y="576">Drama / Independent</text><text x="830" y="576">Mystery / Discovery</text></g>
+    <g><rect x="350" y="607" width="208" height="4" rx="2" fill="#E2DDED"/><rect x="350" y="607" width="134" height="4" rx="2" fill="#8F86AD"/><rect x="590" y="607" width="208" height="4" rx="2" fill="#E2DDED"/><rect x="590" y="607" width="88" height="4" rx="2" fill="#8F86AD"/><rect x="830" y="607" width="208" height="4" rx="2" fill="#E2DDED"/><rect x="830" y="607" width="174" height="4" rx="2" fill="#8F86AD"/></g>
+    <text x="350" y="645" fill="#9990A7" font-size="18" letter-spacing="2">DISCOVER. SAVE. ORGANIZE.</text>
+  </g>
+</svg>

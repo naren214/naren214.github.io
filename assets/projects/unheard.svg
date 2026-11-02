@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" fill="none" role="img" aria-labelledby="title">
+  <title id="title">An abstract gesture trajectory becomes expressive sound waves</title>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="750" gradientUnits="userSpaceOnUse"><stop stop-color="#391F29"/><stop offset="1" stop-color="#24151B"/></linearGradient>
+    <linearGradient id="gesture" x1="160" y1="440" x2="650" y2="330" gradientUnits="userSpaceOnUse"><stop stop-color="#E7A393" stop-opacity=".2"/><stop offset=".5" stop-color="#F0B29F"/><stop offset="1" stop-color="#F5CABB"/></linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#F0B29F" fill-opacity=".1"/></pattern>
+    <g id="wave" stroke="#F0B29F" stroke-linecap="round" stroke-width="2"><path d="M-15-28v56M-10-53v106M-5-81v162M0-115v230M5-79v158M10-49v98M15-25v50"/></g>
+  </defs>
+  <path fill="url(#background)" d="M0 0h1200v750H0z"/>
+  <path fill="url(#dots)" d="M0 0h1200v750H0z"/>
+  <circle cx="350" cy="365" r="236" stroke="#F0B29F" stroke-opacity=".055"/><circle cx="350" cy="365" r="187" stroke="#F0B29F" stroke-opacity=".07"/>
+  <g font-family="Arial, sans-serif">
+    <text x="75" y="87" fill="#F2C9BD" font-size="22" letter-spacing="3">GESTURE → SOUND</text>
+    <text x="1120" y="87" text-anchor="end" fill="#B58987" font-size="18" letter-spacing="3">UNHEARD</text>
+    <path d="M74 123h1049" stroke="#E8B09E" stroke-opacity=".15"/>
+    <path d="M108 447C179 485 164 318 249 317S292 467 371 421 339 245 438 264 419 432 529 371 546 278 604 334" stroke="#F0B29F" stroke-opacity=".09" stroke-width="21"/>
+    <path d="M108 447C179 485 164 318 249 317S292 467 371 421 339 245 438 264 419 432 529 371 546 278 604 334" stroke="url(#gesture)" stroke-width="2.5"/>
+    <g fill="#311C24" stroke="#F0B29F" stroke-width="2"><circle cx="108" cy="447" r="7"/><circle cx="249" cy="317" r="9"/><circle cx="371" cy="421" r="7"/><circle cx="438" cy="264" r="9"/><circle cx="529" cy="371" r="7"/></g>
+    <g stroke="#F0B29F" stroke-opacity=".38"><circle cx="249" cy="317" r="22"/><circle cx="438" cy="264" r="22"/><path d="M249 276v-13m-41 54h-13m54 41v13m41-54h13M438 223v-13m-41 54h-13m54 41v13m41-54h13"/></g>
+    <path d="M604 334h55m-9-8 9 8-9 8" stroke="#F0B29F" stroke-opacity=".6" stroke-width="1.7"/>
+    <g transform="translate(723 375)" opacity=".46"><use href="#wave" transform="scale(1 .51)"/></g>
+    <g transform="translate(786 375)" opacity=".64"><use href="#wave" transform="scale(1 .85)"/></g>
+    <g transform="translate(849 375)" opacity=".92"><use href="#wave" transform="scale(1 1.32)"/></g>
+    <g transform="translate(912 375)" opacity=".8"><use href="#wave" transform="scale(1 1.05)"/></g>
+    <g transform="translate(975 375)" opacity=".64"><use href="#wave" transform="scale(1 .73)"/></g>
+    <g transform="translate(1038 375)" opacity=".4"><use href="#wave" transform="scale(1 .4)"/></g>
+    <path d="M687 375h385" stroke="#F0B29F" stroke-opacity=".12"/>
+    <path d="M75 592h1050" stroke="#E8B09E" stroke-opacity=".15"/>
+    <text x="75" y="636" fill="#B78E8D" font-size="18" letter-spacing="3">01 / MOVEMENT</text>
+    <text x="684" y="636" fill="#B78E8D" font-size="18" letter-spacing="3">02 / EXPRESSION</text>
+    <text x="75" y="688" fill="#F2C9BD" font-size="24" letter-spacing="-.3">A different way to be heard.</text>
+  </g>
+</svg>

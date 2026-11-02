@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Abstract architecture of the three-input TF-IDF and XGBoost hallucination classifier</title>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="750" gradientUnits="userSpaceOnUse"><stop stop-color="#19392F"/><stop offset="1" stop-color="#10271F"/></linearGradient>
+    <linearGradient id="panel" x1="100" y1="150" x2="450" y2="550" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFFFF" stop-opacity=".065"/><stop offset="1" stop-color="#FFFFFF" stop-opacity=".015"/></linearGradient>
+    <linearGradient id="chip" x1="760" y1="215" x2="1060" y2="525" gradientUnits="userSpaceOnUse"><stop stop-color="#344B37"/><stop offset="1" stop-color="#1B3025"/></linearGradient>
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse"><path d="M50 0H0V50" stroke="#E9EFDD" stroke-opacity=".045"/></pattern>
+    <filter id="glow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+  <path fill="url(#background)" d="M0 0h1200v750H0z"/><path fill="url(#grid)" d="M0 0h1200v750H0z"/>
+  <circle cx="905" cy="375" r="265" stroke="#D3F391" stroke-opacity=".05"/><circle cx="905" cy="375" r="220" stroke="#D3F391" stroke-opacity=".07"/><circle cx="905" cy="375" r="175" stroke="#D3F391" stroke-opacity=".04"/>
+  <g font-family="Arial, sans-serif">
+    <text x="82" y="87" fill="#C4D1BE" font-size="20" letter-spacing="3">RELIABILITY / MODEL PIPELINE</text>
+    <circle cx="1095" cy="79" r="5" fill="#D3F391"/>
+    <g stroke="#C7D6BC" stroke-opacity=".2">
+      <rect x="82" y="161" width="355" height="115" rx="10" fill="url(#panel)"/>
+      <rect x="82" y="317" width="355" height="115" rx="10" fill="url(#panel)"/>
+      <rect x="82" y="473" width="355" height="115" rx="10" fill="url(#panel)"/>
+    </g>
+    <g fill="#EAF0E0" font-size="22" letter-spacing="2">
+      <text x="112" y="203">QUESTION</text><text x="112" y="359">REFERENCE</text><text x="112" y="515">RESPONSE</text>
+    </g>
+    <g stroke="#A7B99A" stroke-opacity=".36" stroke-width="3" stroke-linecap="round">
+      <path d="M112 233h224m-224 15h157M112 389h246m-246 15h191M112 545h205m-205 15h245"/>
+    </g>
+    <g stroke="#D3F391" stroke-opacity=".44" stroke-width="1.5">
+      <path d="M437 219h54a28 28 0 0 1 28 28v100a28 28 0 0 0 28 28h29M437 375h139M437 531h54a28 28 0 0 0 28-28V403a28 28 0 0 1 28-28h29"/>
+      <path d="M708 375h63"/>
+    </g>
+    <g fill="#D3F391"><circle cx="437" cy="219" r="4"/><circle cx="437" cy="375" r="4"/><circle cx="437" cy="531" r="4"/><circle cx="747" cy="375" r="4"/></g>
+    <rect x="575" y="341" width="133" height="68" rx="34" fill="#273E2D" stroke="#D3F391" stroke-opacity=".35"/>
+    <text x="642" y="383" text-anchor="middle" fill="#D3F391" font-size="22">TF-IDF</text>
+    <g stroke="#D3F391" stroke-opacity=".35" stroke-width="3">
+      <path d="M806 235v-18m34 18v-18m34 18v-18m34 18v-18m34 18v-18m34 18v-18m34 18v-18M806 515v18m34-18v18m34-18v18m34-18v18m34-18v18m34-18v18m34-18v18M771 270h-18m18 35h-18m18 35h-18m18 35h-18m18 35h-18m18 35h-18m18 35h-18M1051 270h18m-18 35h18m-18 35h18m-18 35h18m-18 35h18m-18 35h18m-18 35h18"/>
+    </g>
+    <rect x="771" y="235" width="280" height="280" rx="20" fill="url(#chip)" stroke="#D3F391" stroke-opacity=".55"/>
+    <rect x="789" y="253" width="244" height="244" rx="10" stroke="#D3F391" stroke-opacity=".13"/>
+    <g stroke="#D3F391" stroke-width="1.5" stroke-opacity=".8"><path d="M910 287v29m0 0-43 29m43-29 43 29m-86 0v27m86-27v27m-86 0-24 22m24-22 24 22m62-22-24 22m24-22 24 22"/></g>
+    <g fill="#D3F391"><circle cx="910" cy="287" r="5"/><circle cx="867" cy="345" r="5"/><circle cx="953" cy="345" r="5"/><circle cx="843" cy="394" r="4"/><circle cx="891" cy="394" r="4"/><circle cx="929" cy="394" r="4"/><circle cx="977" cy="394" r="4"/></g>
+    <text x="911" y="445" text-anchor="middle" fill="#EEF3E4" font-size="31" letter-spacing="-.7">XGBoost</text>
+    <text x="911" y="474" text-anchor="middle" fill="#A7B99A" font-size="18" letter-spacing="2">CLASSIFIER</text>
+    <path d="M82 657h1034" stroke="#B8C8AA" stroke-opacity=".15"/>
+    <text x="82" y="695" fill="#A7B99A" font-size="18" letter-spacing="2">QUESTION + KNOWLEDGE + RESPONSE</text>
+    <text x="1116" y="695" text-anchor="end" fill="#D3F391" font-size="18" letter-spacing="2">HALUEVAL</text>
+  </g>
+</svg>
