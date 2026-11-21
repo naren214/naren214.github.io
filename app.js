@@ -21,7 +21,7 @@
       stack: ['Python', 'Streamlit', 'Google GenAI / Gemma', 'pandas', 'Pillow', 'piexif'],
       github: 'https://github.com/naren214/rapid-response-dronemapper',
       demo: 'https://rapid-response-dronemapper-5mfhmxho42ajqjsbn9appzm.streamlit.app/',
-      note: 'Hackathon prototype. Location handling includes a mock fallback, and AI estimates are exploratory. This is not an operational emergency response system.'
+      note: 'Hackathon prototype. Map markers come from image GPS metadata. AI severity estimates require human review.'
     },
     unheard: {
       title: 'Your trackpad has a sound.', label: 'UNHEARD / BUILDHOURS', image: 'unheard',
